@@ -1,0 +1,17 @@
+{
+  "intro": "12 preguntas rápidas para saber por dónde empiezas. Si aciertas las dos preguntas de un tema, ese tema queda superado y se abren los siguientes.",
+  "questions": [
+    { "id": "t1", "topic": "pres-simple-cont", "type": "mc", "prompt": "She ___ to the gym three times a week.", "options": ["goes", "is going", "go", "going"], "answer": 0, "explain": "Hábito: presente simple con -s." },
+    { "id": "t2", "topic": "pres-simple-cont", "type": "mc", "prompt": "Be quiet! The baby ___.", "options": ["sleeps", "is sleeping", "sleep", "has slept"], "answer": 1, "explain": "Está pasando ahora: presente continuo." },
+    { "id": "t3", "topic": "present-perfect", "type": "mc", "prompt": "I ___ to Japan, but I'd love to go.", "options": ["never went", "have never been", "was never", "never go"], "answer": 1, "explain": "Experiencia de vida sin momento concreto: have never been." },
+    { "id": "t4", "topic": "present-perfect", "type": "mc", "prompt": "She ___ her phone last night.", "options": ["has lost", "lost", "loses", "was lost"], "answer": 1, "explain": "'Last night' es un tiempo terminado: pasado simple." },
+    { "id": "t5", "topic": "present-perfect-cont", "type": "mc", "prompt": "I'm exhausted. I ___ all day.", "options": ["have been cleaning", "has been cleaning", "am clean", "cleaning"], "answer": 0, "explain": "Actividad larga que explica cómo estás: have been cleaning." },
+    { "id": "t6", "topic": "present-perfect-cont", "type": "mc", "prompt": "We ___ each other since we were children.", "options": ["have been knowing", "have known", "know", "are knowing"], "answer": 1, "explain": "'Know' es de estado: have known." },
+    { "id": "t7", "topic": "past-simple-cont", "type": "mc", "prompt": "I ___ a shower when you called.", "options": ["had", "was having", "have", "were having"], "answer": 1, "explain": "Acción larga interrumpida: was having." },
+    { "id": "t8", "topic": "past-simple-cont", "type": "mc", "prompt": "Where ___ last summer?", "options": ["did you go", "were you going", "have you gone", "you went"], "answer": 0, "explain": "Pregunta sobre un momento terminado: did you go." },
+    { "id": "t9", "topic": "past-perfect", "type": "mc", "prompt": "When I got to the airport, my plane ___.", "options": ["already left", "had already left", "has already left", "was already leaving"], "answer": 1, "explain": "Se fue antes de que llegaras: had already left." },
+    { "id": "t10", "topic": "past-perfect", "type": "mc", "prompt": "I ___ him before the party last week.", "options": ["had never met", "have never met", "never meet", "was never meeting"], "answer": 0, "explain": "Experiencia anterior a un momento pasado: had never met." },
+    { "id": "t11", "topic": "past-perfect-cont", "type": "mc", "prompt": "She was tired because she ___ all night.", "options": ["had been driving", "has been driving", "is driving", "had been drive"], "answer": 0, "explain": "Causa de un estado pasado: had been driving." },
+    { "id": "t12", "topic": "past-perfect-cont", "type": "mc", "prompt": "How long ___ there before you moved?", "options": ["had you been living", "have you been living", "are you living", "did you living"], "answer": 0, "explain": "Duración hasta un momento pasado: had you been living." }
+  ]
+}

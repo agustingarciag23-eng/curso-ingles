@@ -1,0 +1,19 @@
+# Configuración de Cloudflare Pages para Curso Inglés.
+name = "curso-ingles"
+pages_build_output_dir = "public"
+compatibility_date = "2025-09-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "curso-ingles"
+database_id = "PEGA-AQUI-EL-ID-DE-TU-BASE-D1"
+migrations_dir = "migrations"
+
+[vars]
+# Rellena estos dos con los datos de tu aplicación de Cloudflare Access (ver README).
+ACCESS_TEAM_DOMAIN = ""          # ej. "agustin.cloudflareaccess.com"
+ACCESS_AUD = ""                  # "Application Audience (AUD) Tag" de la aplicación de Access
+ALLOWED_EMAIL = "agustingarciag23@gmail.com"
+GEMINI_MODEL = "gemini-flash-latest"
+AI_DAILY_LIMIT = "5"
+# GEMINI_API_KEY NO va aquí: se guarda como secreto (ver README).

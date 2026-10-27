@@ -1,0 +1,267 @@
+{
+  "id": "past-perfect-cont",
+  "title": "Past perfect continuous",
+  "lesson": {
+    "intro": "Es el 'llevaba… haciendo algo' del español: la duración de una actividad hasta un momento del pasado.",
+    "when": [
+      "Cuánto tiempo llevaba pasando algo cuando ocurrió otra cosa (I had been waiting for an hour when she finally arrived).",
+      "La causa de una situación pasada que se notaba (They were wet because they had been walking in the rain).",
+      "Con how long, for y since, igual que el present perfect continuous pero un paso más atrás en el tiempo.",
+      "Los verbos de estado van en past perfect simple: I had known him for years."
+    ],
+    "form": [
+      {
+        "label": "Estructura",
+        "items": [
+          "had been + verbo-ing (igual para todas las personas)",
+          "I'd been waiting / She'd been working",
+          "Negativa: I hadn't been sleeping well",
+          "Pregunta: How long had you been living there?"
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "en": "I had been waiting for an hour when she finally arrived.",
+        "es": "Llevaba una hora esperando cuando por fin llegó."
+      },
+      {
+        "en": "They were wet because they had been walking in the rain.",
+        "es": "Estaban mojados porque habían estado caminando bajo la lluvia."
+      },
+      {
+        "en": "How long had you been living there before you moved?",
+        "es": "¿Cuánto tiempo llevabas viviendo allí antes de mudarte?"
+      },
+      {
+        "en": "She had been working there for ten years when she got promoted.",
+        "es": "Llevaba diez años trabajando allí cuando la ascendieron."
+      }
+    ],
+    "errors": [
+      {
+        "wrong": "I was waiting for two hours when he arrived.",
+        "right": "I had been waiting for two hours when he arrived.",
+        "why": "'Llevaba dos horas' hasta ese momento: had been + -ing."
+      },
+      {
+        "wrong": "I had been knowing him for years.",
+        "right": "I had known him for years.",
+        "why": "'Know' es de estado: past perfect simple."
+      },
+      {
+        "wrong": "I had been wait for an hour.",
+        "right": "I had been waiting for an hour.",
+        "why": "Después de 'been' va el verbo con -ing."
+      }
+    ],
+    "tip": "'Llevaba + tiempo + gerundio' en español casi siempre se traduce con had been + -ing."
+  },
+  "checks": [
+    {
+      "id": "c1",
+      "type": "mc",
+      "prompt": "I ___ for two hours when the bus finally came.",
+      "options": [
+        "was waiting",
+        "had been waiting",
+        "have been waiting",
+        "had waiting"
+      ],
+      "answer": 1,
+      "explain": "Duración hasta un momento pasado: had been waiting."
+    },
+    {
+      "id": "c2",
+      "type": "mc",
+      "prompt": "We ___ each other for years before we started working together.",
+      "options": [
+        "had been knowing",
+        "had known",
+        "have known",
+        "were knowing"
+      ],
+      "answer": 1,
+      "explain": "'Know' es de estado: had known."
+    },
+    {
+      "id": "c3",
+      "type": "mc",
+      "prompt": "The kitchen was a mess because they ___.",
+      "options": [
+        "have been cooking",
+        "had been cooking",
+        "are cooking",
+        "had been cook"
+      ],
+      "answer": 1,
+      "explain": "Causa de cómo estaba la cocina en ese momento pasado: had been cooking."
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "type": "mc",
+      "prompt": "Her eyes were red. She ___.",
+      "options": [
+        "has been crying",
+        "had been crying",
+        "is crying",
+        "had been cry"
+      ],
+      "answer": 1,
+      "explain": "Causa visible en un momento pasado: had been crying."
+    },
+    {
+      "id": "p2",
+      "type": "gap",
+      "prompt": "We ___ (walk) for three hours when we finally found the hotel.",
+      "answers": [
+        "had been walking"
+      ],
+      "explain": "Duración hasta otro momento pasado: had been walking."
+    },
+    {
+      "id": "p3",
+      "type": "gap",
+      "prompt": "How long had you ___ (study) English before you moved to Dublin?",
+      "answers": [
+        "been studying"
+      ],
+      "explain": "How long + past perfect continuous: had you been studying."
+    },
+    {
+      "id": "p4",
+      "type": "fix",
+      "sentence": "I was working there for five years when I left.",
+      "answers": [
+        "I had been working there for five years when I left.",
+        "I had worked there for five years when I left."
+      ],
+      "explain": "Duración hasta un momento pasado: had been working (o had worked)."
+    },
+    {
+      "id": "p5",
+      "type": "fix",
+      "sentence": "They had been knowing each other for years.",
+      "answers": [
+        "They had known each other for years."
+      ],
+      "explain": "'Know' no va en continuo."
+    },
+    {
+      "id": "p6",
+      "type": "order",
+      "words": [
+        "been",
+        "had",
+        "raining",
+        "It",
+        "all",
+        "night"
+      ],
+      "answers": [
+        "It had been raining all night."
+      ],
+      "explain": "Sujeto + had been + -ing + tiempo."
+    },
+    {
+      "id": "p7",
+      "type": "translate",
+      "es": "Llevaba una hora esperando cuando llegó el autobús.",
+      "answers": [
+        "I had been waiting for an hour when the bus arrived.",
+        "I had been waiting for an hour when the bus came."
+      ],
+      "explain": "'Llevaba + tiempo + gerundio' = had been + -ing + for."
+    },
+    {
+      "id": "p8",
+      "type": "mc",
+      "prompt": "The ground was wet because it ___.",
+      "options": [
+        "has been raining",
+        "had been raining",
+        "rains",
+        "had been rain"
+      ],
+      "answer": 1,
+      "explain": "Causa visible en el pasado: had been raining."
+    },
+    {
+      "id": "p9",
+      "type": "gap",
+      "prompt": "He was out of breath because he ___ (run).",
+      "answers": [
+        "had been running"
+      ],
+      "explain": "Actividad que explica cómo estaba: had been running."
+    },
+    {
+      "id": "p10",
+      "type": "write",
+      "prompt": "Estaban cansados porque habían estado trabajando todo el día.",
+      "answers": [
+        "They were tired because they had been working all day."
+      ],
+      "explain": "Causa de un estado pasado: had been working."
+    }
+  ],
+  "challenge": [
+    {
+      "id": "r1",
+      "type": "kwt",
+      "sentence": "I started waiting at 5 and the train came at 7.",
+      "keyword": "BEEN",
+      "start": "I",
+      "end": "two hours when the train came.",
+      "answers": [
+        "had been waiting for"
+      ],
+      "explain": "Duración hasta un momento pasado: had been waiting for."
+    },
+    {
+      "id": "r2",
+      "type": "kwt",
+      "sentence": "She was exhausted after hours of studying.",
+      "keyword": "BECAUSE",
+      "start": "She was exhausted",
+      "end": "for hours.",
+      "answers": [
+        "because she had been studying"
+      ],
+      "explain": "Causa de un estado pasado: because + had been + -ing."
+    },
+    {
+      "id": "r3",
+      "type": "mc",
+      "prompt": "By 2020, he ___ in that company for ten years.",
+      "options": [
+        "had been working",
+        "has been working",
+        "was working",
+        "is working"
+      ],
+      "answer": 0,
+      "explain": "Duración hasta un momento del pasado (2020): had been working."
+    },
+    {
+      "id": "r4",
+      "type": "fix",
+      "sentence": "When I arrived, she was waiting for two hours.",
+      "answers": [
+        "When I arrived, she had been waiting for two hours."
+      ],
+      "explain": "'Llevaba dos horas esperando' cuando llegué: had been waiting."
+    },
+    {
+      "id": "r5",
+      "type": "gap",
+      "prompt": "My hands were dirty because I ___ (repair) my bike.",
+      "answers": [
+        "had been repairing"
+      ],
+      "explain": "Actividad que explica cómo estaban las manos: had been repairing."
+    }
+  ]
+}

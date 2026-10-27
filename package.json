@@ -1,0 +1,16 @@
+{
+  "name": "curso-ingles",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "node scripts/check-content.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "dev": "wrangler pages dev public --d1=DB",
+    "db:local": "wrangler d1 migrations apply curso-ingles --local",
+    "db:remote": "wrangler d1 migrations apply curso-ingles --remote",
+    "deploy": "wrangler pages deploy public"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}

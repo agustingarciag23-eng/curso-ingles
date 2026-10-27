@@ -1,0 +1,5 @@
+# Copia este archivo como .dev.vars para probar en local (wrangler pages dev).
+# En local no hay Cloudflare Access: se usa este correo como tu cuenta.
+DEV_EMAIL=agustingarciag23@gmail.com
+# Opcional, para probar la práctica extra con IA en local:
+# GEMINI_API_KEY=tu-clave

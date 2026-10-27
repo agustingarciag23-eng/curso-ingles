@@ -1,0 +1,282 @@
+{
+  "id": "past-simple-cont",
+  "title": "Pasado simple y continuo",
+  "lesson": {
+    "intro": "El pasado simple cuenta acciones terminadas; el pasado continuo describe lo que estaba en marcha en un momento del pasado. Juntos sirven para contar historias.",
+    "when": [
+      "Pasado simple: acciones terminadas en un momento concreto (I called you at nine).",
+      "Pasado simple: una serie de acciones seguidas (He took his keys, opened the door and went in).",
+      "Pasado continuo: algo en progreso en un momento del pasado (At ten last night I was studying).",
+      "Pasado continuo: el 'fondo' de una historia (It was raining and people were running).",
+      "Los dos juntos: la acción larga (continuo) es interrumpida por una corta (simple): I was having dinner when the phone rang.",
+      "While suele ir con la acción larga (continuo); when suele ir con la acción corta (simple)."
+    ],
+    "form": [
+      {
+        "label": "Pasado simple",
+        "items": [
+          "Regulares: work → worked, study → studied",
+          "Irregulares: go → went, see → saw, take → took",
+          "Negativa: I didn't go (didn't + infinitivo)",
+          "Pregunta: Did you see it? (did + infinitivo)"
+        ]
+      },
+      {
+        "label": "Pasado continuo",
+        "items": [
+          "was / were + verbo-ing",
+          "I / he / she / it was working",
+          "you / we / they were working",
+          "Pregunta: What were you doing?"
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "en": "I was having dinner when the phone rang.",
+        "es": "Estaba cenando cuando sonó el teléfono."
+      },
+      {
+        "en": "While she was driving, it started to rain.",
+        "es": "Mientras conducía, empezó a llover."
+      },
+      {
+        "en": "What were you doing at ten last night?",
+        "es": "¿Qué estabas haciendo anoche a las diez?"
+      },
+      {
+        "en": "We didn't go out last weekend.",
+        "es": "No salimos el fin de semana pasado."
+      }
+    ],
+    "errors": [
+      {
+        "wrong": "I didn't went.",
+        "right": "I didn't go.",
+        "why": "Después de didn't el verbo va en infinitivo, no en pasado."
+      },
+      {
+        "wrong": "Did you saw him?",
+        "right": "Did you see him?",
+        "why": "En preguntas con did, el verbo va en infinitivo."
+      },
+      {
+        "wrong": "I was knowing the answer.",
+        "right": "I knew the answer.",
+        "why": "Los verbos de estado no van en continuo tampoco en pasado."
+      }
+    ],
+    "tip": "El imperfecto español ('estaba', 'hacía') muchas veces es pasado continuo, pero si describe un hábito ('jugaba al fútbol de pequeño') suele ser pasado simple o 'used to'."
+  },
+  "checks": [
+    {
+      "id": "c1",
+      "type": "mc",
+      "prompt": "She ___ to Rome last summer.",
+      "options": [
+        "goes",
+        "went",
+        "has went",
+        "has gone"
+      ],
+      "answer": 1,
+      "explain": "Acción terminada en un momento pasado (last summer): pasado simple."
+    },
+    {
+      "id": "c2",
+      "type": "mc",
+      "prompt": "They ___ football when it started to rain.",
+      "options": [
+        "played",
+        "were playing",
+        "was playing",
+        "play"
+      ],
+      "answer": 1,
+      "explain": "Acción larga interrumpida, sujeto plural: were playing."
+    },
+    {
+      "id": "c3",
+      "type": "mc",
+      "prompt": "___ you see the match yesterday?",
+      "options": [
+        "Do",
+        "Did",
+        "Were",
+        "Have"
+      ],
+      "answer": 1,
+      "explain": "Pregunta en pasado simple: Did + infinitivo."
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "type": "mc",
+      "prompt": "I ___ TV when the lights went out.",
+      "options": [
+        "watched",
+        "was watching",
+        "am watching",
+        "were watching"
+      ],
+      "answer": 1,
+      "explain": "Acción en progreso interrumpida: I was watching."
+    },
+    {
+      "id": "p2",
+      "type": "gap",
+      "prompt": "We ___ (not / go) out last night.",
+      "answers": [
+        "didn't go"
+      ],
+      "explain": "Negativa en pasado: didn't + infinitivo."
+    },
+    {
+      "id": "p3",
+      "type": "gap",
+      "prompt": "What ___ (you / do) at 8 o'clock yesterday evening?",
+      "answers": [
+        "were you doing"
+      ],
+      "explain": "Acción en progreso en un momento concreto del pasado."
+    },
+    {
+      "id": "p4",
+      "type": "mc",
+      "prompt": "While I ___ dinner, I cut my finger.",
+      "options": [
+        "was cooking",
+        "cooking",
+        "were cooking",
+        "am cooking"
+      ],
+      "answer": 0,
+      "explain": "While + acción larga: was cooking (I va con was)."
+    },
+    {
+      "id": "p5",
+      "type": "fix",
+      "sentence": "Did you saw the match?",
+      "answers": [
+        "Did you see the match?"
+      ],
+      "explain": "Después de did, infinitivo: see."
+    },
+    {
+      "id": "p6",
+      "type": "fix",
+      "sentence": "She didn't went to school yesterday.",
+      "answers": [
+        "She didn't go to school yesterday."
+      ],
+      "explain": "Después de didn't, infinitivo: go."
+    },
+    {
+      "id": "p7",
+      "type": "order",
+      "words": [
+        "phone",
+        "rang",
+        "I",
+        "was",
+        "sleeping",
+        "when",
+        "the"
+      ],
+      "answers": [
+        "I was sleeping when the phone rang.",
+        "When the phone rang, I was sleeping."
+      ],
+      "explain": "Acción larga (was sleeping) interrumpida por una corta (rang)."
+    },
+    {
+      "id": "p8",
+      "type": "translate",
+      "es": "Estaba lloviendo cuando salimos del cine.",
+      "answers": [
+        "It was raining when we left the cinema.",
+        "It was raining when we came out of the cinema.",
+        "It was raining when we left the movie theater."
+      ],
+      "explain": "Fondo en continuo (was raining) y acción puntual en simple (left)."
+    },
+    {
+      "id": "p9",
+      "type": "mc",
+      "prompt": "He ___ his keys, opened the door and went in.",
+      "options": [
+        "took",
+        "was taking",
+        "takes",
+        "has taken"
+      ],
+      "answer": 0,
+      "explain": "Serie de acciones seguidas: pasado simple."
+    },
+    {
+      "id": "p10",
+      "type": "gap",
+      "prompt": "They ___ (play) football when it started to rain.",
+      "answers": [
+        "were playing"
+      ],
+      "explain": "Acción larga interrumpida: were playing."
+    }
+  ],
+  "challenge": [
+    {
+      "id": "r1",
+      "type": "gap",
+      "prompt": "At 10 p.m. yesterday I ___ (study) for my exam.",
+      "answers": [
+        "was studying"
+      ],
+      "explain": "En progreso en un momento concreto: was studying."
+    },
+    {
+      "id": "r2",
+      "type": "fix",
+      "sentence": "When I was walking home, I was seeing an accident.",
+      "answers": [
+        "When I was walking home, I saw an accident.",
+        "I saw an accident when I was walking home."
+      ],
+      "explain": "La acción corta que interrumpe va en pasado simple: saw."
+    },
+    {
+      "id": "r3",
+      "type": "translate",
+      "es": "¿Qué hacías cuando te llamé?",
+      "answers": [
+        "What were you doing when I called you?",
+        "What were you doing when I called?",
+        "What were you doing when I phoned you?",
+        "What were you doing when I rang you?"
+      ],
+      "explain": "'Qué hacías' en ese momento = What were you doing."
+    },
+    {
+      "id": "r4",
+      "type": "gap",
+      "prompt": "I ___ (not / see) the sign because I was looking at my phone.",
+      "answers": [
+        "didn't see"
+      ],
+      "explain": "Acción puntual negativa: didn't + see."
+    },
+    {
+      "id": "r5",
+      "type": "kwt",
+      "sentence": "During my shower, the doorbell rang.",
+      "keyword": "WHILE",
+      "start": "The doorbell rang",
+      "end": "a shower.",
+      "answers": [
+        "while I was having",
+        "while I was taking"
+      ],
+      "explain": "While + pasado continuo para la acción larga."
+    }
+  ]
+}

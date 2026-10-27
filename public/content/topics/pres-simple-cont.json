@@ -1,0 +1,289 @@
+{
+  "id": "pres-simple-cont",
+  "title": "Presente simple y continuo",
+  "lesson": {
+    "intro": "El inglés tiene dos presentes. El simple habla de lo habitual o lo que siempre es verdad; el continuo, de lo que está pasando ahora o de forma temporal.",
+    "when": [
+      "Presente simple: hábitos y rutinas (I usually get up at seven).",
+      "Presente simple: verdades generales (Water boils at 100 degrees).",
+      "Presente simple: horarios fijos de transporte, clases o eventos (The bus leaves at 8:15).",
+      "Presente continuo: lo que pasa justo ahora (Look! It's snowing).",
+      "Presente continuo: situaciones temporales (This week I'm working from home).",
+      "Presente continuo: planes ya organizados para el futuro (I'm meeting Ana tomorrow).",
+      "Los verbos de estado (know, like, want, need, believe, understand, agree, belong) casi nunca van en continuo: I know, no 'I'm knowing'."
+    ],
+    "form": [
+      {
+        "label": "Presente simple",
+        "items": [
+          "I/you/we/they work",
+          "he/she/it works (añade -s / -es)",
+          "Negativa: I don't work / She doesn't work",
+          "Pregunta: Do you work? / Does she work?"
+        ]
+      },
+      {
+        "label": "Presente continuo",
+        "items": [
+          "am / is / are + verbo-ing",
+          "I'm working / She's working / They're working",
+          "Negativa: I'm not working / He isn't working",
+          "Pregunta: Are you working? / Is she working?"
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "en": "I usually walk to school, but today I'm taking the bus.",
+        "es": "Normalmente voy andando al instituto, pero hoy cojo el autobús."
+      },
+      {
+        "en": "She works in a bank.",
+        "es": "Trabaja en un banco."
+      },
+      {
+        "en": "What are you doing right now?",
+        "es": "¿Qué estás haciendo ahora mismo?"
+      },
+      {
+        "en": "I don't understand this word.",
+        "es": "No entiendo esta palabra."
+      }
+    ],
+    "errors": [
+      {
+        "wrong": "I am agree with you.",
+        "right": "I agree with you.",
+        "why": "En inglés 'agree' es un verbo, no un adjetivo: no lleva 'am'."
+      },
+      {
+        "wrong": "She work in a bank.",
+        "right": "She works in a bank.",
+        "why": "Con he/she/it el presente simple lleva -s."
+      },
+      {
+        "wrong": "I'm knowing the answer.",
+        "right": "I know the answer.",
+        "why": "'Know' es un verbo de estado y no se usa en continuo."
+      },
+      {
+        "wrong": "Do you are coming?",
+        "right": "Are you coming?",
+        "why": "En continuo la pregunta se hace invirtiendo am/is/are; no se usa 'do'."
+      }
+    ],
+    "tip": "Pregúntate: ¿es algo habitual o permanente (simple) o está pasando ahora / es temporal (continuo)?"
+  },
+  "checks": [
+    {
+      "id": "c1",
+      "type": "mc",
+      "prompt": "Listen! The baby ___.",
+      "options": [
+        "cries",
+        "is crying",
+        "cry",
+        "crying"
+      ],
+      "answer": 1,
+      "explain": "'Listen!' indica que está pasando ahora: presente continuo."
+    },
+    {
+      "id": "c2",
+      "type": "mc",
+      "prompt": "My dad ___ coffee every morning.",
+      "options": [
+        "drinks",
+        "is drinking",
+        "drink",
+        "drinking"
+      ],
+      "answer": 0,
+      "explain": "'Every morning' es un hábito: presente simple con -s para he."
+    },
+    {
+      "id": "c3",
+      "type": "mc",
+      "prompt": "I ___ what you mean.",
+      "options": [
+        "am understanding",
+        "understand",
+        "understands",
+        "am understand"
+      ],
+      "answer": 1,
+      "explain": "'Understand' es un verbo de estado: presente simple."
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "type": "mc",
+      "prompt": "Listen! Somebody ___ at the door.",
+      "options": [
+        "knocks",
+        "is knocking",
+        "knock",
+        "has knocking"
+      ],
+      "answer": 1,
+      "explain": "Está pasando en este momento: presente continuo."
+    },
+    {
+      "id": "p2",
+      "type": "gap",
+      "prompt": "My brother ___ (not / like) coffee.",
+      "answers": [
+        "doesn't like",
+        "does not like"
+      ],
+      "explain": "Gusto permanente con verbo de estado: presente simple negativo con 'doesn't'."
+    },
+    {
+      "id": "p3",
+      "type": "gap",
+      "prompt": "Look! It ___ (snow).",
+      "answers": [
+        "is snowing",
+        "'s snowing"
+      ],
+      "explain": "'Look!' indica que ocurre ahora: is + snowing."
+    },
+    {
+      "id": "p4",
+      "type": "order",
+      "words": [
+        "usually",
+        "She",
+        "walks",
+        "to",
+        "work"
+      ],
+      "answers": [
+        "She usually walks to work."
+      ],
+      "explain": "Los adverbios de frecuencia (usually, always, often) van delante del verbo principal."
+    },
+    {
+      "id": "p5",
+      "type": "fix",
+      "sentence": "I am agree with you.",
+      "answers": [
+        "I agree with you."
+      ],
+      "explain": "'Agree' es un verbo: I agree, sin 'am'."
+    },
+    {
+      "id": "p6",
+      "type": "fix",
+      "sentence": "She is knowing the answer.",
+      "answers": [
+        "She knows the answer."
+      ],
+      "explain": "'Know' es un verbo de estado: presente simple."
+    },
+    {
+      "id": "p7",
+      "type": "translate",
+      "es": "¿Qué estás haciendo ahora?",
+      "answers": [
+        "What are you doing now?",
+        "What are you doing right now?"
+      ],
+      "explain": "Acción en curso: What + are you + -ing."
+    },
+    {
+      "id": "p8",
+      "type": "write",
+      "prompt": "Normalmente no veo la tele, pero esta semana estoy viendo una serie.",
+      "answers": [
+        "I don't usually watch TV, but this week I'm watching a series.",
+        "I usually don't watch TV, but this week I'm watching a series.",
+        "I don't normally watch TV, but this week I'm watching a series.",
+        "I don't usually watch TV, but this week I'm watching a TV series.",
+        "I don't usually watch TV but this week I'm watching a show."
+      ],
+      "explain": "Hábito (simple: don't usually watch) frente a situación temporal (continuo: I'm watching)."
+    },
+    {
+      "id": "p9",
+      "type": "mc",
+      "prompt": "This week I ___ from home because the office is closed.",
+      "options": [
+        "work",
+        "am working",
+        "works",
+        "working"
+      ],
+      "answer": 1,
+      "explain": "'This week' marca una situación temporal: presente continuo."
+    },
+    {
+      "id": "p10",
+      "type": "gap",
+      "prompt": "The bus ___ (leave) at 8:15 every morning.",
+      "answers": [
+        "leaves"
+      ],
+      "explain": "Horario fijo y repetido: presente simple."
+    }
+  ],
+  "challenge": [
+    {
+      "id": "r1",
+      "type": "gap",
+      "prompt": "Why ___ (you / wear) a coat? It's really hot today.",
+      "answers": [
+        "are you wearing"
+      ],
+      "explain": "Pregunta sobre lo que pasa ahora: are you + wearing."
+    },
+    {
+      "id": "r2",
+      "type": "fix",
+      "sentence": "Do you are working today?",
+      "answers": [
+        "Are you working today?"
+      ],
+      "explain": "En continuo la pregunta empieza por are, sin 'do'."
+    },
+    {
+      "id": "r3",
+      "type": "translate",
+      "es": "Mi hermana vive en Valencia, pero este mes se está quedando con nosotros.",
+      "answers": [
+        "My sister lives in Valencia, but this month she's staying with us.",
+        "My sister lives in Valencia, but she's staying with us this month."
+      ],
+      "explain": "Situación permanente (lives) frente a temporal (is staying)."
+    },
+    {
+      "id": "r4",
+      "type": "mc",
+      "prompt": "I ___ what you're saying, but I don't agree.",
+      "options": [
+        "am seeing",
+        "see",
+        "sees",
+        "am see"
+      ],
+      "answer": 1,
+      "explain": "'See' con el sentido de 'entender' es de estado: presente simple."
+    },
+    {
+      "id": "r5",
+      "type": "kwt",
+      "sentence": "Cycling to school is my normal routine.",
+      "keyword": "USUALLY",
+      "start": "I",
+      "end": "to school.",
+      "answers": [
+        "usually cycle",
+        "usually go by bike",
+        "usually ride my bike",
+        "usually ride a bike"
+      ],
+      "explain": "Un hábito se expresa con presente simple + usually delante del verbo."
+    }
+  ]
+}

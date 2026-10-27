@@ -1,0 +1,56 @@
+{
+  "id": "present-perfect",
+  "title": "Present perfect",
+  "lesson": {
+    "intro": "El present perfect une el pasado con el presente. Se parece al 'he comido' español, pero sus reglas no son iguales: lo que decide es si mencionas un momento terminado del pasado.",
+    "when": [
+      "Experiencias en tu vida, sin decir cuándo (I've been to London twice. Have you ever tried sushi?).",
+      "Algo que empezó en el pasado y sigue ahora, con for o since (She has lived here since 2019).",
+      "Resultados recientes que importan ahora, a menudo con just, already o yet (I've lost my keys. Have you finished yet?).",
+      "Si dices CUÁNDO pasó con un tiempo terminado (yesterday, last week, in 2020, two days ago), usa pasado simple: I saw him yesterday.",
+      "For + duración (for two years, for a week). Since + punto de inicio (since 2019, since Monday, since I was a child)."
+    ],
+    "form": [
+      { "label": "Estructura", "items": ["have / has + participio pasado", "I've finished / She's finished / They've finished", "Negativa: I haven't finished / He hasn't finished", "Pregunta: Have you finished? / Has she finished?"] },
+      { "label": "Participios irregulares frecuentes", "items": ["be → been, go → gone, see → seen, do → done", "eat → eaten, write → written, take → taken", "know → known, lose → lost, fly → flown"] },
+      { "label": "Posición de las palabras", "items": ["just, already, never, ever: entre have y el participio (I've just eaten)", "yet: al final, en preguntas y negativas (I haven't finished yet)"] }
+    ],
+    "examples": [
+      { "en": "I've never been to London.", "es": "Nunca he estado en Londres." },
+      { "en": "She has lived here since 2019.", "es": "Vive aquí desde 2019." },
+      { "en": "We've known each other for ten years.", "es": "Nos conocemos desde hace diez años." },
+      { "en": "I've just eaten, thanks.", "es": "Acabo de comer, gracias." }
+    ],
+    "errors": [
+      { "wrong": "I have seen him yesterday.", "right": "I saw him yesterday.", "why": "'Yesterday' es un tiempo terminado: pasado simple." },
+      { "wrong": "I live here since 2020.", "right": "I have lived here since 2020.", "why": "En español usamos presente ('vivo aquí desde'), pero en inglés va present perfect." },
+      { "wrong": "I know her since three years.", "right": "I have known her for three years.", "why": "Duración = for. Y el verbo va en present perfect." },
+      { "wrong": "Have you finished already your homework?", "right": "Have you finished your homework yet?", "why": "En preguntas se usa 'yet' al final de la frase." }
+    ],
+    "tip": "Si en la frase aparece un momento terminado (yesterday, ago, last…, in + año pasado), olvídate del present perfect."
+  },
+  "checks": [
+    { "id": "c1", "type": "mc", "prompt": "I ___ him last week.", "options": ["have met", "met", "have meet", "meet"], "answer": 1, "explain": "'Last week' es un tiempo terminado: pasado simple." },
+    { "id": "c2", "type": "mc", "prompt": "She has worked here ___ 2021.", "options": ["for", "since", "ago", "during"], "answer": 1, "explain": "2021 es el punto de inicio: since." },
+    { "id": "c3", "type": "mc", "prompt": "___ you ever been to Ireland?", "options": ["Did", "Have", "Are", "Do"], "answer": 1, "explain": "Experiencia con 'ever' y participio 'been': Have you ever been…?" }
+  ],
+  "practice": [
+    { "id": "p1", "type": "mc", "prompt": "We ___ to Paris in 2019.", "options": ["have gone", "went", "have been", "go"], "answer": 1, "explain": "'In 2019' es un momento terminado: pasado simple." },
+    { "id": "p2", "type": "gap", "prompt": "She ___ (live) in Madrid since 2018.", "answers": ["has lived", "has been living"], "explain": "Empezó en el pasado y sigue: present perfect (simple o continuo)." },
+    { "id": "p3", "type": "gap", "prompt": "I can't find my keys. I think I ___ (lose) them.", "answers": ["have lost"], "explain": "Resultado que importa ahora (no encuentro las llaves): have lost." },
+    { "id": "p4", "type": "mc", "prompt": "I have known her ___ ten years.", "options": ["since", "for", "during", "from"], "answer": 1, "explain": "'Ten years' es una duración: for." },
+    { "id": "p5", "type": "mc", "prompt": "They have been married ___ 2015.", "options": ["for", "since", "ago", "in"], "answer": 1, "explain": "2015 es el punto de inicio: since." },
+    { "id": "p6", "type": "fix", "sentence": "I have seen him yesterday.", "answers": ["I saw him yesterday."], "explain": "Con 'yesterday' se usa pasado simple." },
+    { "id": "p7", "type": "fix", "sentence": "I live here since 2020.", "answers": ["I have lived here since 2020.", "I have been living here since 2020."], "explain": "'Desde 2020' y sigue: present perfect, no presente simple." },
+    { "id": "p8", "type": "order", "words": ["never", "have", "I", "been", "to", "London"], "answers": ["I have never been to London."], "explain": "'Never' va entre have y el participio." },
+    { "id": "p9", "type": "translate", "es": "¿Has terminado ya los deberes?", "answers": ["Have you finished your homework yet?", "Have you finished the homework yet?", "Have you already finished your homework?", "Have you finished your homework already?"], "explain": "En preguntas, 'ya' suele ser 'yet' al final. 'Already' en pregunta muestra sorpresa." },
+    { "id": "p10", "type": "gap", "prompt": "He ___ (just / call) me.", "answers": ["has just called"], "explain": "'Just' va entre has y el participio: has just called." }
+  ],
+  "challenge": [
+    { "id": "r1", "type": "kwt", "sentence": "I started working here three years ago.", "keyword": "FOR", "start": "I", "end": "three years.", "answers": ["have worked here for", "have been working here for"], "explain": "'Hace tres años y sigo' = present perfect + for." },
+    { "id": "r2", "type": "kwt", "sentence": "This is the first time I have eaten Thai food.", "keyword": "NEVER", "start": "I", "end": "Thai food before.", "answers": ["have never eaten", "have never tried"], "explain": "'Es la primera vez' equivale a 'nunca antes': have never eaten." },
+    { "id": "r3", "type": "kwt", "sentence": "The last time I saw Laura was in May.", "keyword": "SINCE", "start": "I", "end": "May.", "answers": ["haven't seen Laura since", "haven't seen her since"], "explain": "'La última vez fue en mayo' = no la he visto desde mayo." },
+    { "id": "r4", "type": "fix", "sentence": "How long are you living in this town?", "answers": ["How long have you lived in this town?", "How long have you been living in this town?"], "explain": "'How long' sobre algo que sigue: present perfect." },
+    { "id": "r5", "type": "mc", "prompt": "I ___ my homework yet.", "options": ["didn't finish", "haven't finished", "don't finish", "haven't finish"], "answer": 1, "explain": "'Yet' con resultado pendiente: haven't + participio (finished)." }
+  ]
+}

@@ -1,0 +1,271 @@
+{
+  "id": "present-perfect-cont",
+  "title": "Present perfect continuous",
+  "lesson": {
+    "intro": "Es el 'llevo… haciendo algo' del español. Se usa para actividades que empezaron en el pasado y siguen, o que acaban de terminar y se notan.",
+    "when": [
+      "Duración de una actividad que sigue ahora, con for, since o How long (I've been studying English for two years).",
+      "Actividad reciente cuyo efecto se ve ahora (You're out of breath. — I've been running).",
+      "Simple frente a continuo: el simple cuenta resultados o cantidades (I've written three emails); el continuo destaca la actividad y su duración (I've been writing emails all morning).",
+      "Los verbos de estado (know, like, believe, belong, have = poseer) van en present perfect simple: I've known her for years."
+    ],
+    "form": [
+      {
+        "label": "Estructura",
+        "items": [
+          "have / has + been + verbo-ing",
+          "I've been waiting / She's been waiting",
+          "Negativa: I haven't been sleeping well",
+          "Pregunta: How long have you been waiting?"
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "en": "I've been studying English for two years.",
+        "es": "Llevo dos años estudiando inglés."
+      },
+      {
+        "en": "It has been raining all day.",
+        "es": "Lleva todo el día lloviendo."
+      },
+      {
+        "en": "Why are you so tired? — I've been working in the garden.",
+        "es": "¿Por qué estás tan cansado? — He estado trabajando en el jardín."
+      },
+      {
+        "en": "She has read three books this month.",
+        "es": "Ha leído tres libros este mes (cantidad: simple)."
+      }
+    ],
+    "errors": [
+      {
+        "wrong": "I'm waiting here for an hour.",
+        "right": "I've been waiting here for an hour.",
+        "why": "'Llevo una hora esperando' no va en presente continuo, sino en present perfect continuous."
+      },
+      {
+        "wrong": "I've been knowing him for years.",
+        "right": "I've known him for years.",
+        "why": "'Know' es de estado: present perfect simple."
+      },
+      {
+        "wrong": "I have been written three emails.",
+        "right": "I have written three emails.",
+        "why": "Con una cantidad (three emails) se usa el simple, y 'been written' sería pasiva."
+      }
+    ],
+    "tip": "Si en español dirías 'llevo X tiempo haciendo…', en inglés casi siempre es have been + -ing."
+  },
+  "checks": [
+    {
+      "id": "c1",
+      "type": "mc",
+      "prompt": "I ___ for you for twenty minutes!",
+      "options": [
+        "am waiting",
+        "have been waiting",
+        "wait",
+        "was wait"
+      ],
+      "answer": 1,
+      "explain": "'Llevo veinte minutos esperando': have been waiting."
+    },
+    {
+      "id": "c2",
+      "type": "mc",
+      "prompt": "We ___ each other since school.",
+      "options": [
+        "have been knowing",
+        "have known",
+        "are knowing",
+        "know"
+      ],
+      "answer": 1,
+      "explain": "'Know' es de estado: have known."
+    },
+    {
+      "id": "c3",
+      "type": "mc",
+      "prompt": "She ___ four cups of coffee today.",
+      "options": [
+        "has been drinking",
+        "has drunk",
+        "is drinking",
+        "drinks"
+      ],
+      "answer": 1,
+      "explain": "Cantidad concreta (four cups): present perfect simple."
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "type": "mc",
+      "prompt": "You look frozen! How long ___ here?",
+      "options": [
+        "are you standing",
+        "have you been standing",
+        "do you stand",
+        "you have stood"
+      ],
+      "answer": 1,
+      "explain": "Duración hasta ahora con How long: have you been standing."
+    },
+    {
+      "id": "p2",
+      "type": "gap",
+      "prompt": "It ___ (rain) since this morning.",
+      "answers": [
+        "has been raining"
+      ],
+      "explain": "Empezó esta mañana y sigue: has been raining."
+    },
+    {
+      "id": "p3",
+      "type": "mc",
+      "prompt": "I ___ three emails this morning.",
+      "options": [
+        "have been writing",
+        "have written",
+        "am writing",
+        "write"
+      ],
+      "answer": 1,
+      "explain": "Número concreto de cosas terminadas: present perfect simple."
+    },
+    {
+      "id": "p4",
+      "type": "gap",
+      "prompt": "Your eyes are red. Have you ___ (cry)?",
+      "answers": [
+        "been crying"
+      ],
+      "explain": "Actividad reciente con efecto visible: have you been crying."
+    },
+    {
+      "id": "p5",
+      "type": "fix",
+      "sentence": "I am studying English since 2020.",
+      "answers": [
+        "I have been studying English since 2020.",
+        "I have studied English since 2020."
+      ],
+      "explain": "'Desde 2020' y sigue: present perfect (mejor continuo para la actividad)."
+    },
+    {
+      "id": "p6",
+      "type": "fix",
+      "sentence": "We have been knowing each other for ten years.",
+      "answers": [
+        "We have known each other for ten years."
+      ],
+      "explain": "'Know' no va en continuo."
+    },
+    {
+      "id": "p7",
+      "type": "order",
+      "words": [
+        "been",
+        "all",
+        "I've",
+        "day",
+        "working"
+      ],
+      "answers": [
+        "I've been working all day."
+      ],
+      "explain": "Estructura: sujeto + have been + -ing + tiempo."
+    },
+    {
+      "id": "p8",
+      "type": "translate",
+      "es": "Llevo dos horas esperándote.",
+      "answers": [
+        "I've been waiting for you for two hours.",
+        "I've been waiting for you for 2 hours."
+      ],
+      "explain": "'Llevo + tiempo + gerundio' = have been + -ing + for + tiempo."
+    },
+    {
+      "id": "p9",
+      "type": "mc",
+      "prompt": "She's tired because she ___ all afternoon.",
+      "options": [
+        "has played tennis",
+        "has been playing tennis",
+        "plays tennis",
+        "is playing tennis"
+      ],
+      "answer": 1,
+      "explain": "Actividad larga que explica cómo está ahora: has been playing."
+    },
+    {
+      "id": "p10",
+      "type": "write",
+      "prompt": "Hemos estado viviendo aquí desde enero.",
+      "answers": [
+        "We've been living here since January.",
+        "We have lived here since January."
+      ],
+      "explain": "Desde enero y sigue: have been living (o have lived)."
+    }
+  ],
+  "challenge": [
+    {
+      "id": "r1",
+      "type": "kwt",
+      "sentence": "I started learning the guitar two years ago and I'm still learning.",
+      "keyword": "BEEN",
+      "start": "I",
+      "end": "the guitar for two years.",
+      "answers": [
+        "have been learning"
+      ],
+      "explain": "Empezó hace dos años y sigue: have been + -ing."
+    },
+    {
+      "id": "r2",
+      "type": "kwt",
+      "sentence": "It started snowing at 6 o'clock and it's still snowing.",
+      "keyword": "SINCE",
+      "start": "It",
+      "end": "6 o'clock.",
+      "answers": [
+        "has been snowing since"
+      ],
+      "explain": "Punto de inicio con since + present perfect continuous."
+    },
+    {
+      "id": "r3",
+      "type": "mc",
+      "prompt": "I ___ this book for weeks, but I still haven't finished it.",
+      "options": [
+        "have read",
+        "have been reading",
+        "read",
+        "am reading"
+      ],
+      "answer": 1,
+      "explain": "Actividad no terminada con duración: have been reading."
+    },
+    {
+      "id": "r4",
+      "type": "fix",
+      "sentence": "How long are you waiting?",
+      "answers": [
+        "How long have you been waiting?"
+      ],
+      "explain": "How long + actividad hasta ahora: have you been waiting."
+    },
+    {
+      "id": "r5",
+      "type": "translate",
+      "es": "Ha estado lloviendo toda la mañana.",
+      "answers": [
+        "It's been raining all morning."
+      ],
+      "explain": "Actividad continua hasta ahora: has been raining."
+    }
+  ]
+}

@@ -1,0 +1,270 @@
+{
+  "id": "past-perfect",
+  "title": "Past perfect",
+  "lesson": {
+    "intro": "El past perfect es el 'había hecho' del español: una acción anterior a otro momento del pasado. Es la base del tercer condicional y del estilo indirecto.",
+    "when": [
+      "Una acción que ocurrió antes que otra acción pasada (When I got to the station, the train had already left).",
+      "Experiencias hasta un momento del pasado (I had never seen snow before I went to Canada).",
+      "Con by the time, already, just, never, before, after.",
+      "Ojo con el significado: 'When I arrived, the film started' (empezó al llegar yo) frente a 'When I arrived, the film had started' (ya había empezado).",
+      "Con after o before el orden ya está claro, así que a veces vale también el pasado simple (After she finished / had finished her homework, she went out)."
+    ],
+    "form": [
+      {
+        "label": "Estructura",
+        "items": [
+          "had + participio pasado (igual para todas las personas)",
+          "I'd finished / She'd finished",
+          "Negativa: I hadn't finished",
+          "Pregunta: Had you finished?"
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "en": "When I got to the station, the train had already left.",
+        "es": "Cuando llegué a la estación, el tren ya se había ido."
+      },
+      {
+        "en": "I had never seen snow before I went to Canada.",
+        "es": "Nunca había visto la nieve antes de ir a Canadá."
+      },
+      {
+        "en": "By the time we arrived, the film had started.",
+        "es": "Para cuando llegamos, la película había empezado."
+      },
+      {
+        "en": "She was hungry because she hadn't eaten all day.",
+        "es": "Tenía hambre porque no había comido en todo el día."
+      }
+    ],
+    "errors": [
+      {
+        "wrong": "When I arrived, the train already left.",
+        "right": "When I arrived, the train had already left.",
+        "why": "La salida del tren es anterior a tu llegada: past perfect."
+      },
+      {
+        "wrong": "I had went home.",
+        "right": "I had gone home.",
+        "why": "Después de had va el participio (gone), no el pasado (went)."
+      },
+      {
+        "wrong": "I hadn't never been there.",
+        "right": "I had never been there.",
+        "why": "En inglés no se usan dos negaciones: had never o hadn't ever."
+      }
+    ],
+    "tip": "Dibuja una línea del tiempo: si hay dos momentos pasados y quieres marcar el que pasó antes, ese va con had + participio."
+  },
+  "checks": [
+    {
+      "id": "c1",
+      "type": "mc",
+      "prompt": "When I arrived, everyone ___ home.",
+      "options": [
+        "has gone",
+        "had gone",
+        "had went",
+        "goes"
+      ],
+      "answer": 1,
+      "explain": "Se fueron antes de que llegaras: had gone."
+    },
+    {
+      "id": "c2",
+      "type": "mc",
+      "prompt": "I ___ him before last summer.",
+      "options": [
+        "had never met",
+        "have never met",
+        "never meet",
+        "hadn't never met"
+      ],
+      "answer": 0,
+      "explain": "Experiencia anterior a un momento pasado: had never met."
+    },
+    {
+      "id": "c3",
+      "type": "mc",
+      "prompt": "She couldn't pay because she ___ her wallet.",
+      "options": [
+        "has lost",
+        "had lost",
+        "loses",
+        "had lose"
+      ],
+      "answer": 1,
+      "explain": "Perdió la cartera antes de intentar pagar: had lost."
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "type": "mc",
+      "prompt": "When we got to the cinema, the film ___, so we missed the beginning.",
+      "options": [
+        "started",
+        "had started",
+        "has started",
+        "was start"
+      ],
+      "answer": 1,
+      "explain": "Ya había empezado antes de llegar: had started."
+    },
+    {
+      "id": "p2",
+      "type": "gap",
+      "prompt": "I didn't recognise him because he ___ (change) a lot.",
+      "answers": [
+        "had changed"
+      ],
+      "explain": "El cambio ocurrió antes de verle: had changed."
+    },
+    {
+      "id": "p3",
+      "type": "gap",
+      "prompt": "She ___ (never / fly) before her trip to London last year.",
+      "answers": [
+        "had never flown"
+      ],
+      "explain": "Experiencia anterior a un momento pasado: had never + participio (flown)."
+    },
+    {
+      "id": "p4",
+      "type": "fix",
+      "sentence": "When I arrived, everyone had went home.",
+      "answers": [
+        "When I arrived, everyone had gone home."
+      ],
+      "explain": "Participio de go: gone."
+    },
+    {
+      "id": "p5",
+      "type": "fix",
+      "sentence": "I was nervous because I never gave a speech before.",
+      "answers": [
+        "I was nervous because I had never given a speech before."
+      ],
+      "explain": "Experiencia anterior al momento de los nervios: had never given."
+    },
+    {
+      "id": "p6",
+      "type": "order",
+      "words": [
+        "already",
+        "had",
+        "The",
+        "left",
+        "bus"
+      ],
+      "answers": [
+        "The bus had already left."
+      ],
+      "explain": "'Already' va entre had y el participio."
+    },
+    {
+      "id": "p7",
+      "type": "translate",
+      "es": "Cuando llegué, ya se habían ido.",
+      "answers": [
+        "When I arrived, they had already left.",
+        "When I arrived, they had already gone.",
+        "When I got there, they had already left.",
+        "When I got there, they had already gone."
+      ],
+      "explain": "'Se habían ido' antes de llegar: had already left/gone."
+    },
+    {
+      "id": "p8",
+      "type": "mc",
+      "prompt": "By the time the police arrived, the thief ___.",
+      "options": [
+        "escaped",
+        "had escaped",
+        "has escaped",
+        "was escaping"
+      ],
+      "answer": 1,
+      "explain": "By the time + pasado suele llevar past perfect en la otra parte."
+    },
+    {
+      "id": "p9",
+      "type": "gap",
+      "prompt": "After she ___ (finish) her homework, she went out.",
+      "answers": [
+        "had finished",
+        "finished"
+      ],
+      "explain": "Con 'after' el orden está claro: valen had finished y finished."
+    },
+    {
+      "id": "p10",
+      "type": "write",
+      "prompt": "Nunca había visto el mar.",
+      "answers": [
+        "I had never seen the sea.",
+        "I'd never seen the sea.",
+        "I had never seen the ocean."
+      ],
+      "explain": "'Había visto' = had seen; never va en medio."
+    }
+  ],
+  "challenge": [
+    {
+      "id": "r1",
+      "type": "kwt",
+      "sentence": "The meeting started before I arrived.",
+      "keyword": "ALREADY",
+      "start": "The meeting",
+      "end": "when I arrived.",
+      "answers": [
+        "had already started",
+        "had already begun"
+      ],
+      "explain": "Ocurrió antes de llegar: had already + participio."
+    },
+    {
+      "id": "r2",
+      "type": "kwt",
+      "sentence": "It was my first visit to New York.",
+      "keyword": "BEEN",
+      "start": "I",
+      "end": "to New York before.",
+      "answers": [
+        "had never been"
+      ],
+      "explain": "'Mi primera visita' = nunca había estado antes: had never been."
+    },
+    {
+      "id": "r3",
+      "type": "fix",
+      "sentence": "When I got home, my parents already went to bed.",
+      "answers": [
+        "When I got home, my parents had already gone to bed."
+      ],
+      "explain": "Se acostaron antes de que llegaras: had already gone."
+    },
+    {
+      "id": "r4",
+      "type": "gap",
+      "prompt": "The streets were wet because it ___ (rain) during the night.",
+      "answers": [
+        "had rained",
+        "had been raining"
+      ],
+      "explain": "Llovió antes del momento en que viste las calles: had rained (o had been raining)."
+    },
+    {
+      "id": "r5",
+      "type": "translate",
+      "es": "No había estudiado, así que suspendí el examen.",
+      "answers": [
+        "I hadn't studied, so I failed the exam.",
+        "I hadn't studied, so I failed the test."
+      ],
+      "explain": "Acción anterior (hadn't studied) y resultado en pasado simple (failed)."
+    }
+  ]
+}

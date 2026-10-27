@@ -1,0 +1,129 @@
+{
+  "items": [
+    {
+      "id": "theme-ocean",
+      "kind": "theme",
+      "name": "Océano",
+      "price": 60,
+      "preview": "#0e7490"
+    },
+    {
+      "id": "theme-forest",
+      "kind": "theme",
+      "name": "Bosque",
+      "price": 60,
+      "preview": "#3f6212"
+    },
+    {
+      "id": "theme-sunset",
+      "kind": "theme",
+      "name": "Atardecer",
+      "price": 90,
+      "preview": "#c2410c"
+    },
+    {
+      "id": "theme-night",
+      "kind": "theme",
+      "name": "Noche",
+      "price": 120,
+      "preview": "#312e81"
+    },
+    {
+      "id": "avatar-fox",
+      "kind": "avatar",
+      "name": "Zorro",
+      "price": 30,
+      "emoji": "🦊"
+    },
+    {
+      "id": "avatar-owl",
+      "kind": "avatar",
+      "name": "Búho",
+      "price": 30,
+      "emoji": "🦉"
+    },
+    {
+      "id": "avatar-cat",
+      "kind": "avatar",
+      "name": "Gato",
+      "price": 30,
+      "emoji": "🐱"
+    },
+    {
+      "id": "avatar-octopus",
+      "kind": "avatar",
+      "name": "Pulpo",
+      "price": 45,
+      "emoji": "🐙"
+    },
+    {
+      "id": "avatar-robot",
+      "kind": "avatar",
+      "name": "Robot",
+      "price": 45,
+      "emoji": "🤖"
+    },
+    {
+      "id": "avatar-dragon",
+      "kind": "avatar",
+      "name": "Dragón",
+      "price": 80,
+      "emoji": "🐉"
+    },
+    {
+      "id": "card-london",
+      "kind": "card",
+      "name": "Londres",
+      "price": 40,
+      "emoji": "🎡",
+      "fact": "El Big Ben es en realidad el nombre de la campana, no de la torre."
+    },
+    {
+      "id": "card-dublin",
+      "kind": "card",
+      "name": "Dublín",
+      "price": 40,
+      "emoji": "☘️",
+      "fact": "En Irlanda el inglés convive con el irlandés, otra lengua oficial."
+    },
+    {
+      "id": "card-edinburgh",
+      "kind": "card",
+      "name": "Edimburgo",
+      "price": 40,
+      "emoji": "🏰",
+      "fact": "Su castillo está construido sobre un antiguo volcán apagado."
+    },
+    {
+      "id": "card-newyork",
+      "kind": "card",
+      "name": "Nueva York",
+      "price": 50,
+      "emoji": "🗽",
+      "fact": "La Estatua de la Libertad fue un regalo de Francia a Estados Unidos."
+    },
+    {
+      "id": "card-sydney",
+      "kind": "card",
+      "name": "Sídney",
+      "price": 50,
+      "emoji": "🦘",
+      "fact": "Su ópera es Patrimonio de la Humanidad de la UNESCO desde 2007."
+    },
+    {
+      "id": "card-cambridge",
+      "kind": "card",
+      "name": "Cambridge",
+      "price": 70,
+      "emoji": "🎓",
+      "fact": "La ciudad que da nombre a tu examen tiene una de las universidades más antiguas del mundo."
+    }
+  ],
+  "coins": {
+    "practice": 5,
+    "challenge": 10,
+    "perfectBonus": 20,
+    "session": 10,
+    "topicComplete": 30
+  }
+}

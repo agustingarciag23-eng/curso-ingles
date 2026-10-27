@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "threshold": 0.8,
+  "branches": [
+    { "id": "presente", "title": "Presente", "topics": ["pres-simple-cont", "present-perfect", "present-perfect-cont"] },
+    { "id": "pasado", "title": "Pasado", "topics": ["past-simple-cont", "past-perfect", "past-perfect-cont"] },
+    { "id": "condicionales", "title": "Condicionales", "topics": ["cond-0-1", "cond-2", "cond-3", "wish"] },
+    { "id": "pasiva", "title": "Pasiva", "topics": ["passive-basic", "passive-modals", "causative"] },
+    { "id": "indirecto", "title": "Estilo indirecto", "topics": ["reported-statements", "reported-questions", "reporting-verbs"] },
+    { "id": "modales", "title": "Modales", "topics": ["modals-obligation", "modals-deduction-present", "modals-deduction-past"] },
+    { "id": "sueltos", "title": "Temas sin requisitos", "topics": ["gerund-infinitive", "relative-clauses", "linkers", "used-to", "word-formation", "phrasal-verbs"] }
+  ],
+  "topics": {
+    "pres-simple-cont": { "title": "Presente simple y continuo", "requires": [], "content": true },
+    "present-perfect": { "title": "Present perfect", "requires": ["pres-simple-cont"], "content": true },
+    "present-perfect-cont": { "title": "Present perfect continuous", "requires": ["present-perfect"], "content": true },
+    "past-simple-cont": { "title": "Pasado simple y continuo", "requires": [], "content": true },
+    "past-perfect": { "title": "Past perfect", "requires": ["past-simple-cont"], "content": true },
+    "past-perfect-cont": { "title": "Past perfect continuous", "requires": ["past-perfect"], "content": true },
+    "cond-0-1": { "title": "Condicionales 0 y 1", "requires": [], "content": false },
+    "cond-2": { "title": "Condicional 2", "requires": ["cond-0-1"], "content": false },
+    "cond-3": { "title": "Condicional 3", "requires": ["cond-2", "past-perfect"], "content": false },
+    "wish": { "title": "Wish / if only", "requires": ["cond-3"], "content": false },
+    "passive-basic": { "title": "Pasiva básica", "requires": [], "content": false },
+    "passive-modals": { "title": "Pasiva con modales", "requires": ["passive-basic"], "content": false },
+    "causative": { "title": "Have something done", "requires": ["passive-modals"], "content": false },
+    "reported-statements": { "title": "Estilo indirecto: afirmaciones", "requires": [], "content": false },
+    "reported-questions": { "title": "Estilo indirecto: preguntas y órdenes", "requires": ["reported-statements"], "content": false },
+    "reporting-verbs": { "title": "Reporting verbs", "requires": ["reported-questions"], "content": false },
+    "modals-obligation": { "title": "Modales: obligación y habilidad", "requires": [], "content": false },
+    "modals-deduction-present": { "title": "Deducción en presente", "requires": ["modals-obligation"], "content": false },
+    "modals-deduction-past": { "title": "Deducción en pasado (must have)", "requires": ["modals-deduction-present", "present-perfect"], "content": false },
+    "gerund-infinitive": { "title": "Gerundio e infinitivo", "requires": [], "content": false },
+    "relative-clauses": { "title": "Oraciones de relativo", "requires": [], "content": false },
+    "linkers": { "title": "Conectores (although, despite…)", "requires": [], "content": false },
+    "used-to": { "title": "Used to / be used to / get used to", "requires": [], "content": false },
+    "word-formation": { "title": "Formación de palabras", "requires": [], "content": false },
+    "phrasal-verbs": { "title": "Phrasal verbs frecuentes", "requires": [], "content": false }
+  }
+}
