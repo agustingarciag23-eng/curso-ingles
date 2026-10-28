@@ -110,6 +110,8 @@ if (process.argv[1] === fileURLToPath(import.meta.url)) {
   const env = {
     DB: createD1(process.env.DB_FILE || join(ROOT, '.wrangler-local.sqlite')),
     DEV_EMAIL: process.env.DEV_EMAIL || 'local@example.com',
+    APP_PASSWORD: process.env.APP_PASSWORD,
+    ALLOWED_EMAIL: process.env.ALLOWED_EMAIL,
     GEMINI_API_KEY: process.env.GEMINI_API_KEY,
     GEMINI_MODEL: process.env.GEMINI_MODEL,
   };

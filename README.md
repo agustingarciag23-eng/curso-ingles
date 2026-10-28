@@ -14,7 +14,7 @@ Web personal para llevar la gramática inglesa de B1 a B2 (Cambridge B2 First) e
 - **Monedas y tienda** solo de personalización (temas de color, avatares y postales).
 - **Racha** con un día libre por semana.
 - **Práctica extra con IA (Gemini)** cuando has visto todo el banco de un tema: ejercicios validados, guardados para reutilizarlos, marcados como IA y con botón para reportar errores. Límite diario configurable.
-- **Cloudflare Access** como acceso: solo entra tu correo, sin pantalla de login propia.
+- **Acceso con contraseña** (secreto de Cloudflare, sin coste ni tarjeta): cookie de sesión de un año por dispositivo y bloqueo tras 10 intentos fallidos por hora.
 - Se puede instalar en el iPhone como app (PWA).
 
 ## Estructura
@@ -79,11 +79,13 @@ npm run check
    ```bash
    npx wrangler pages secret put GEMINI_API_KEY --project-name curso-ingles
    ```
-6. **Protege la web con Cloudflare Access.** En Cloudflare Zero Trust crea una aplicación *Self-hosted* para el dominio `curso-ingles.pages.dev` (y otra regla para `*.curso-ingles.pages.dev` si quieres proteger también las vistas previas) con una política *Allow* que incluya solo tu correo. Después copia:
-   - el **Application Audience (AUD) Tag** de la aplicación → `ACCESS_AUD` en `wrangler.toml`
-   - tu **team domain** (`<tu-equipo>.cloudflareaccess.com`) → `ACCESS_TEAM_DOMAIN`
+6. **Pon una contraseña a la web.** Desde la carpeta del proyecto:
+   ```bash
+   bash configurar-contrasena.sh
+   ```
+   Crea la tabla de inicio de sesión, te pide la contraseña (al escribirla no se ve nada) y vuelve a publicar. Cada dispositivo la pide una vez y la recuerda durante un año. Para cambiarla, vuelve a ejecutar el script: se cerrarán las sesiones abiertas. Hasta que la pongas, la API responde "Falta configurar la contraseña", así que nadie puede usarla.
 
-   Haz commit y push para publicar el cambio. Hasta que no rellenes estos dos valores la API responde "Cloudflare Access no está configurado", así que nadie puede usarla.
+   *Alternativa:* si algún día activas Cloudflare Zero Trust (pide tarjeta aunque el plan sea gratis), puedes usar Cloudflare Access en su lugar con `configurar-acceso.sh`: borra antes el secreto `APP_PASSWORD`, porque tiene prioridad.
 7. **En el iPhone:** abre la web en Safari, inicia sesión con tu correo, y en *Compartir → Añadir a pantalla de inicio*.
 
 Los nombres de menús del panel de Cloudflare cambian a veces; si no encuentras uno, busca la opción por su nombre en la documentación de Cloudflare.

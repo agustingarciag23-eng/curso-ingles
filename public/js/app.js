@@ -1,5 +1,5 @@
 // Curso Inglés — aplicación principal (rutas, vistas y sesión diaria).
-import { api, content, topicContent } from './api.js';
+import { api, content, topicContent, LoginRequired } from './api.js';
 import { h, renderExercise } from './exercises.js';
 
 const main = document.getElementById('main');
@@ -30,7 +30,36 @@ function view(...children) {
   window.scrollTo(0, 0);
 }
 
+function viewLogin(message) {
+  document.getElementById('wallet').replaceChildren();
+  document.querySelectorAll('.nav, .tabbar').forEach((n) => (n.hidden = true));
+  const input = h('input', { type: 'password', id: 'pw', name: 'password', autocomplete: 'current-password' });
+  const msg = h('p', { role: 'alert' }, message || '');
+  const btn = h('button', { class: 'btn block', type: 'submit' }, 'Entrar');
+  const form = h('form', { class: 'panel stack login' },
+    h('h1', {}, 'Curso Inglés'),
+    h('label', { for: 'pw' }, 'Contraseña'),
+    input, btn, msg,
+  );
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    btn.disabled = true;
+    msg.textContent = '';
+    try {
+      await api('login', { password: input.value });
+      location.reload();
+    } catch (err) {
+      msg.textContent = err.message;
+      btn.disabled = false;
+      input.select();
+    }
+  });
+  view(form);
+  input.focus();
+}
+
 function showError(e) {
+  if (e instanceof LoginRequired) return viewLogin();
   view(
     h('div', { class: 'panel' },
       h('h1', {}, 'Algo ha fallado'),
@@ -181,7 +210,13 @@ async function viewHome() {
   if (S.state.review.length) {
     parts.push(h('a', { class: 'btn secondary', href: '#/repaso' }, `Repasar ${S.state.review.length} fallos`));
   }
-  parts.push(h('p', { class: 'small', style: 'margin-top:24px' }, h('a', { href: '#/revisar' }, 'Respuestas guardadas para revisar')));
+  const logout = h('button', { class: 'btn ghost small', type: 'button' }, 'Cerrar sesión');
+  logout.addEventListener('click', async () => {
+    await api('logout', {});
+    location.reload();
+  });
+  parts.push(h('div', { class: 'row', style: 'margin-top:24px; justify-content:space-between' },
+    h('a', { class: 'small', href: '#/revisar' }, 'Respuestas guardadas para revisar'), logout));
   view(...parts);
 }
 

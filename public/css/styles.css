@@ -265,3 +265,13 @@ textarea.free:focus { outline: none; border-color: var(--accent); }
 .toast.show { opacity: 1; transform: translate(-50%, 0); }
 
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } }
+
+/* ---------- inicio de sesión ---------- */
+[hidden] { display: none !important; }
+.login label { display: block; font-weight: 700; }
+.login input {
+  display: block; width: 100%; font: inherit; font-size: 1.1rem; color: var(--ink); background: var(--surface-2);
+  border: 1.5px solid var(--line); border-radius: var(--r-md); padding: 12px 14px;
+}
+.login input:focus { outline: none; border-color: var(--accent); }
+.login [role='alert']:not(:empty) { color: var(--bad); font-weight: 700; margin: 0; }

@@ -1,5 +1,7 @@
 // Comunicación con la API y carga del contenido.
 
+export class LoginRequired extends Error {}
+
 export async function api(path, body) {
   const res = await fetch('/api/' + path, {
     method: body === undefined ? 'GET' : 'POST',
@@ -17,6 +19,7 @@ export async function api(path, body) {
     }
     throw new Error('Respuesta inesperada del servidor');
   }
+  if (res.status === 401 && data.login) throw new LoginRequired(data.error);
   if (!res.ok) throw new Error(data.error || `Error ${res.status}`);
   return data;
 }
