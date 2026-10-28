@@ -6,7 +6,7 @@ compatibility_date = "2025-09-01"
 [[d1_databases]]
 binding = "DB"
 database_name = "curso-ingles"
-database_id = "PEGA-AQUI-EL-ID-DE-TU-BASE-D1"
+database_id = "bf257c6c-2b06-4262-a59b-e1e58875246b"
 migrations_dir = "migrations"
 
 [vars]
